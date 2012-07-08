@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="component">
+	<name>JomReference</name>
+	<author>Panos Kakoulidis</author>
+	<creationDate>April 2012</creationDate>
+	<copyright>Copyright(C) 2012. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>-</authorEmail>
+	<authorUrl>-</authorUrl>
+	<version>0.1</version>
+	<description>A component that establishes a recommendation system.</description>
+	<install>
+       <sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+	   </sql>
+    </install>
+    <uninstall>
+       <sql>
+			<file driver="mysql">uninstall.sql</file>
+	   </sql>
+    </uninstall>
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+	<adjomstration>
+		<menu>JomReference</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>install.php</filename>
+			<filename>uninstall.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+		    <filename>controller.php</filename>
+			<filename>admin.jomreference.php</filename>
+
+			<filename>images/jomreference.png</filename>
+			
+			<filename>models/configuration.php</filename>
+			<filename>models/settings.php</filename>
+			<filename>models/index.html</filename>
+			
+			
+			<filename>tables/configuration.php</filename>
+            <filename>tables/index.html</filename>
+			
+			<filename>views/index.html</filename>
+			
+			<filename>views/settings/view.html.php</filename>
+			<filename>views/settings/index.html</filename>
+			<filename>views/settings/tmpl/default.php</filename>
+			<filename>views/settings/tmpl/index.html</filename>
+			
+			<filename>views/configuration/view.html.php</filename>
+			<filename>views/configuration/index.html</filename>
+			<filename>views/configuration/tmpl/default.php</filename>
+			<filename>views/configuration/tmpl/index.html</filename>
+		</files>
+	</adjomstration>
+    <params />
+</install>

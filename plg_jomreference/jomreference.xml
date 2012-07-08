@@ -1,0 +1,28 @@
+<install version="1.5" type="plugin" group="community"  method="upgrade">
+	<name>JomReference</name>
+	<author>Panos Kakoulidis</author>
+	<creationDate>April 2012</creationDate>
+	<copyright>Copyright(C) 2012. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>-</authorEmail>
+	<authorUrl>-</authorUrl>
+	<version>0.1</version>
+	<description>A JomSocial plugin for the JomReference component which establishes a recommendation system.</description>
+        <isapplication>true</isapplication>
+	<files>
+		<file plugin="jomreference">jomreference.php </file>
+                <file>jomreference/config.xml</file>
+				<file>jomreference/acceptperm.php</file>
+				<file>jomreference/delete.php</file>
+				<file>jomreference/info.php</file>
+				<file>jomreference/loadinfo.php</file>
+				<file>jomreference/loadperms.php</file>
+				<file>jomreference/loadrecs.php</file>
+				<file>jomreference/loadreqs.php</file>
+				<file>jomreference/permission.php</file>
+				<file>jomreference/publish.php</file>
+				<file>jomreference/recommend.php</file>
+				<file>jomreference/request.php</file>
+				<file>jomreference/reply.php</file>
+	</files>
+</install>
